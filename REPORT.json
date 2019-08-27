@@ -259,7 +259,7 @@
         "primeByCountry" : false,
         "verifyWorkplaceDomain" : false,
         "prime" : false,
-        "index" : false
+        "index" : true
       },
       "controllers.mobile.RewardsController" : {
         "listForCustomer" : false
