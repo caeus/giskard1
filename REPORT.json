@@ -195,7 +195,7 @@
         "transferOrder" : false,
         "checkAddress" : false,
         "recreateHumanId" : false,
-        "addOrderMessage" : false,
+        "addOrderMessage" : true,
         "listScheduledByClient" : false,
         "updatePayment" : false,
         "updateRequestStatus" : false,
