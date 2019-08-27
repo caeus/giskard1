@@ -108,7 +108,8 @@
         "getById" : false,
         "changeDoodle" : false,
         "create" : false,
-        "update" : false
+        "update" : false,
+        "list" : true
       },
       "controllers.DevicesCtrl" : {
         "registerKiwerDevice" : false,
