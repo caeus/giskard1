@@ -322,7 +322,7 @@
         "removePoints" : false,
         "getPointsInfo" : false,
         "sendPoints" : false,
-        "getPoints" : false
+        "getPoints" : true
       },
       "controllers.helper.SystemVariablesCtrl" : {
         "getMaxPickupOrders" : false,
