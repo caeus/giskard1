@@ -182,7 +182,7 @@
         "listScheduledByClient" : false,
         "updatePayment" : false,
         "updateRequestStatus" : false,
-        "assignKiwer" : false,
+        "assignKiwer" : true,
         "changeZone" : false,
         "addPicture" : false
       },
