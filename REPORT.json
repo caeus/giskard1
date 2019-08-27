@@ -14,7 +14,7 @@
         "list" : false
       },
       "controllers.ClientsCtrl" : {
-        "getById" : false,
+        "getById" : true,
         "getByPhoneNumber" : true,
         "getScore" : false,
         "create" : true,
@@ -171,7 +171,7 @@
         "botLocationByOrder" : false,
         "listBySupervisor" : false,
         "setPickupTime" : false,
-        "create" : false,
+        "create" : true,
         "addReceipt" : false,
         "cancelScheduled" : false,
         "getVideoStream" : false,
