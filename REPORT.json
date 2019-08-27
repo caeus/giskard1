@@ -173,7 +173,7 @@
         "updateRestaurantStatus" : false,
         "updateReviewStatus" : false,
         "setPickupAddress" : false,
-        "assignBot" : false,
+        "assignBot" : true,
         "forceCloseOrder" : false,
         "transferOrder" : false,
         "checkAddress" : false,
