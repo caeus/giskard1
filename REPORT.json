@@ -48,7 +48,7 @@
         "getById" : false,
         "create" : false,
         "updateById" : false,
-        "list" : false,
+        "list" : true,
         "deleteById" : false
       },
       "controllers.OrderSimulatorCtrl" : {
@@ -129,7 +129,7 @@
       },
       "controllers.AuthenticationCtrl" : {
         "createAdminPost" : false,
-        "appVersion2" : false,
+        "appVersion2" : true,
         "logout" : false,
         "appVersion" : false,
         "login" : false
@@ -209,7 +209,7 @@
       },
       "controllers.MessagesCtrl" : {
         "readMessage" : false,
-        "readClientMessages" : false,
+        "readClientMessages" : true,
         "listClientMessages" : false,
         "sendMessage" : false
       },
@@ -219,7 +219,7 @@
       "controllers.ServiceTypesCtrl" : {
         "updateStatus" : false,
         "updateSchedule" : false,
-        "index" : false
+        "index" : true
       },
       "controllers.PaymentsCtrl" : {
         "createSource" : false,
