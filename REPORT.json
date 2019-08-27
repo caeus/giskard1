@@ -299,7 +299,7 @@
       },
       "controllers.AddressesCtrl" : {
         "getById" : false,
-        "create" : false,
+        "create" : true,
         "updateById" : false,
         "list" : true,
         "deleteById" : false
