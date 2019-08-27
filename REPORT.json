@@ -405,7 +405,7 @@
         "authorizeDoor" : false,
         "addTip" : false,
         "getScheduledById" : false,
-        "getById" : false,
+        "getById" : true,
         "markAsSimulated" : false,
         "closeOrder" : false,
         "updateOrderRequestStatus" : false,
