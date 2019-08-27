@@ -424,7 +424,7 @@
         "updateLocation" : false,
         "botLocationForOrder" : false,
         "orderGrabbed" : false,
-        "listByClient" : false,
+        "listByClient" : true,
         "listByZone" : false,
         "cancelOrder" : false,
         "setQuotedDeliveryTime" : true,
