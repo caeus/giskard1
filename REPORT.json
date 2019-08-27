@@ -7,7 +7,7 @@
       "controllers.restaurants.PromoCtrl" : {
         "getById" : false,
         "create" : false,
-        "byZone" : false,
+        "byZone" : true,
         "disable" : false,
         "update" : false,
         "couponsByZone" : false,
