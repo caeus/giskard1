@@ -155,7 +155,7 @@
         "botLocationByOrder" : false,
         "listBySupervisor" : false,
         "setPickupTime" : false,
-        "create" : false,
+        "create" : true,
         "addReceipt" : false,
         "cancelScheduled" : false,
         "getVideoStream" : false,
