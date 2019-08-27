@@ -288,7 +288,7 @@
         "getByExternalId" : false,
         "create" : false,
         "batchPriceChange" : false,
-        "listByZone" : false,
+        "listByZone" : true,
         "delete" : false,
         "update" : false,
         "setAvailability" : false,
@@ -391,7 +391,7 @@
         "getOrderMetrics" : false
       },
       "controllers.SupervisorsCtrl" : {
-        "getById" : false,
+        "getById" : true,
         "getPromoCode" : false,
         "create" : false,
         "query" : false,
@@ -453,7 +453,7 @@
         "updatePayment" : false,
         "updateRequestStatus" : false,
         "assignKiwer" : false,
-        "listScheduled" : false,
+        "listScheduled" : true,
         "changeZone" : false,
         "addPicture" : false
       },
@@ -503,7 +503,7 @@
         "payments" : false,
         "restaurantTerms" : false,
         "videoRedirect" : false,
-        "getEnvVarsJs" : false,
+        "getEnvVarsJs" : true,
         "restaurantContract" : false,
         "web" : false,
         "kiwerLandingPage" : false,
@@ -512,7 +512,7 @@
         "primeByCountry" : false,
         "verifyWorkplaceDomain" : false,
         "prime" : false,
-        "index" : false
+        "index" : true
       },
       "controllers.mobile.RewardsController" : {
         "listForCustomer" : true
