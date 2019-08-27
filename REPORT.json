@@ -411,7 +411,7 @@
         "updateOrderRequestStatus" : false,
         "unassignOrder" : false,
         "openDoor" : false,
-        "validateCheckout" : false,
+        "validateCheckout" : true,
         "assignOrder" : false,
         "botLocationByOrder" : false,
         "listBySupervisor" : false,
@@ -464,11 +464,11 @@
       "controllers.ServiceTypesCtrl" : {
         "updateStatus" : false,
         "updateSchedule" : false,
-        "index" : false
+        "index" : true
       },
       "controllers.PaymentsCtrl" : {
         "createSource" : false,
-        "getCustomer" : false,
+        "getCustomer" : true,
         "selectDefaultSource" : false
       },
       "controllers.NotificationCtrl" : {
