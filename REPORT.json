@@ -457,7 +457,7 @@
         "addPicture" : false
       },
       "controllers.Assets" : {
-        "at" : false
+        "at" : true
       },
       "controllers.MessagesCtrl" : {
         "readMessage" : false,
