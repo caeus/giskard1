@@ -327,7 +327,7 @@
         "getMaxPickupOrders" : false,
         "getMaxOrders" : false,
         "setMaxOrders" : false,
-        "isCoverageAreaEnabled" : false,
+        "isCoverageAreaEnabled" : true,
         "setMaxPickupOrders" : false
       },
       "controllers.StripeCtrl" : {
