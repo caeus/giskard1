@@ -11,6 +11,7 @@
         "getById" : false
       },
       "controllers.ClientsCtrl" : {
+        "getById" : true,
         "getScore" : false,
         "query" : false,
         "removePrime" : false,
@@ -51,6 +52,9 @@
         "listByKiwer" : false,
         "fixOrderMovement" : false,
         "createKiwerMovement" : false
+      },
+      "controllers.HomeCtrl" : {
+        "home" : true
       },
       "controllers.PointsCtrl" : {
         "removePoints" : false,
@@ -114,6 +118,7 @@
       "controllers.AuthenticationCtrl" : {
         "logout" : false,
         "appVersion" : false,
+        "appVersion2" : true,
         "createAdminPost" : false
       },
       "controllers.metrics.OrderMetricsCtrl" : {
@@ -181,6 +186,7 @@
       },
       "controllers.MessagesCtrl" : {
         "readMessage" : false,
+        "readClientMessages" : true,
         "listClientMessages" : false,
         "sendMessage" : false
       },
