@@ -7,8 +7,8 @@
       "controllers.restaurants.PromoCtrl" : {
         "disable" : false,
         "couponsByZone" : false,
-        "list" : false,
-        "getById" : false
+        "getById" : false,
+        "list" : false
       },
       "controllers.ClientsCtrl" : {
         "getScore" : false,
@@ -159,8 +159,10 @@
         "botLocationForOrder" : false,
         "orderGrabbed" : false,
         "listByZone" : false,
+        "setQuotedDeliveryTime" : true,
         "listByRestaurant" : false,
         "rateOrder" : false,
+        "queryWithDefaults" : true,
         "updateRestaurantStatus" : false,
         "updateReviewStatus" : false,
         "setPickupAddress" : false,
@@ -232,8 +234,8 @@
       },
       "controllers.WebAuthenticationCtrl" : {
         "oAuth" : false,
-        "logSession" : false,
-        "logout" : false
+        "logout" : false,
+        "logSession" : false
       },
       "controllers.CollectionsCtrl" : {
         "rearrange" : false,
@@ -242,8 +244,8 @@
         "rearrangeItem" : false
       },
       "controllers.ManagerCtrl" : {
-        "list" : false,
-        "getById" : false
+        "getById" : false,
+        "list" : false
       }
     }
   }
