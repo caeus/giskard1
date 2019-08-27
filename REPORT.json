@@ -260,7 +260,7 @@
       },
       "controllers.ClientsCtrl" : {
         "getById" : false,
-        "getByPhoneNumber" : false,
+        "getByPhoneNumber" : true,
         "getScore" : false,
         "create" : false,
         "query" : false,
@@ -275,7 +275,7 @@
         "updateByPhone" : false
       },
       "controllers.restaurants.RestaurantsCtrl" : {
-        "getById" : false,
+        "getById" : true,
         "getByPhoneNumber" : false,
         "getByExternalId" : false,
         "create" : false,
@@ -293,7 +293,7 @@
         "getById" : false,
         "create" : false,
         "updateById" : false,
-        "list" : false,
+        "list" : true,
         "deleteById" : false
       },
       "controllers.OrderSimulatorCtrl" : {
@@ -308,7 +308,7 @@
         "createKiwerMovement" : false
       },
       "controllers.HomeCtrl" : {
-        "home" : false
+        "home" : true
       },
       "controllers.PointsCtrl" : {
         "removePoints" : false,
@@ -507,7 +507,7 @@
         "index" : false
       },
       "controllers.mobile.RewardsController" : {
-        "listForCustomer" : false
+        "listForCustomer" : true
       },
       "controllers.WebAuthenticationCtrl" : {
         "oAuth" : false,
