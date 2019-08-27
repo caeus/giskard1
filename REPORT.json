@@ -266,8 +266,8 @@
       },
       "controllers.WebAuthenticationCtrl" : {
         "oAuth" : true,
-        "logout" : true,
-        "logSession" : true
+        "logSession" : true,
+        "logout" : true
       },
       "controllers.CollectionsCtrl" : {
         "rearrangeItem" : true,
@@ -282,291 +282,8 @@
         "list" : false
       },
       "controllers.ManagerCtrl" : {
-        "getById" : true,
-        "list" : true
-      }
-    },
-    "STAGING" : {
-      "controllers.restaurants.PromoCtrl" : {
-        "getById" : false,
-        "create" : false,
-        "byZone" : false,
-        "disable" : false,
-        "update" : false,
-        "couponsByZone" : false,
-        "list" : false
-      },
-      "controllers.ClientsCtrl" : {
-        "getById" : true,
-        "getByPhoneNumber" : true,
-        "getScore" : false,
-        "create" : true,
-        "query" : false,
-        "removePrime" : false,
-        "unsubscribePrime" : false,
-        "listPerksByUser" : true,
-        "listPromoCodes" : false,
-        "redeemPromoCodeForUser" : false,
-        "checkFriends" : false,
-        "subscribePrime" : false,
-        "changeZone" : false,
-        "updateByPhone" : false
-      },
-      "controllers.restaurants.RestaurantsCtrl" : {
-        "getById" : false,
-        "getByPhoneNumber" : false,
-        "getByExternalId" : false,
-        "create" : false,
-        "batchPriceChange" : false,
-        "listByZone" : false,
-        "delete" : false,
-        "update" : false,
-        "setAvailability" : false,
-        "list" : false
-      },
-      "controllers.metrics.MetricsCtrl" : {
-        "getWeekMetrics" : false
-      },
-      "controllers.AddressesCtrl" : {
-        "getById" : false,
-        "create" : false,
-        "updateById" : false,
         "list" : true,
-        "deleteById" : false
-      },
-      "controllers.OrderSimulatorCtrl" : {
-        "simulateOrder" : false
-      },
-      "controllers.old.MovementsCtrl" : {
-        "getById" : false,
-        "listByAccount" : false,
-        "query" : false,
-        "listByKiwer" : false,
-        "fixOrderMovement" : false,
-        "createKiwerMovement" : false
-      },
-      "controllers.HomeCtrl" : {
-        "home" : true
-      },
-      "controllers.PointsCtrl" : {
-        "removePoints" : false,
-        "getPointsInfo" : false,
-        "sendPoints" : false,
-        "getPoints" : true
-      },
-      "controllers.helper.SystemVariablesCtrl" : {
-        "getMaxPickupOrders" : false,
-        "getMaxOrders" : false,
-        "setMaxOrders" : false,
-        "isCoverageAreaEnabled" : false,
-        "setMaxPickupOrders" : false
-      },
-      "controllers.StripeCtrl" : {
-        "getPublishableKey" : false,
-        "getUserEnsureCustomer" : false,
-        "selectDefaultSource" : false,
-        "listSources" : false,
-        "createPayment" : false,
-        "getCustomer" : false,
-        "makePayment" : false,
-        "createSource" : false
-      },
-      "controllers.old.KiwerApplicationsCtrl" : {
-        "delete" : false,
-        "list" : false,
-        "find" : false,
-        "create" : false
-      },
-      "controllers.PromoCodesCtrl" : {
-        "toggleActive" : false,
-        "getCodes" : false,
-        "create" : false
-      },
-      "controllers.helper.TestCtrl" : {
-        "testClientPush" : false,
-        "generateError" : false,
-        "venmo" : false,
-        "rebuildScore" : false,
-        "geodecode" : false,
-        "testAPI" : false,
-        "testEvent" : false,
-        "serverMessage" : false,
-        "testDoc" : false,
-        "sendSms" : false,
-        "testNotify" : false,
-        "smsTestPoints" : false
-      },
-      "controllers.ZonesCtrl" : {
-        "ranking" : false,
-        "getById" : false,
-        "changeDoodle" : false,
-        "create" : false,
-        "update" : false,
-        "list" : true
-      },
-      "controllers.DevicesCtrl" : {
-        "registerKiwerDevice" : false,
-        "getKiwerDevice" : false,
-        "registerClientDevice" : true,
-        "getClientDevice" : false
-      },
-      "controllers.AuthenticationCtrl" : {
-        "createAdminPost" : false,
-        "appVersion2" : true,
-        "logout" : false,
-        "appVersion" : false,
-        "login" : false
-      },
-      "controllers.metrics.OrderMetricsCtrl" : {
-        "getOrderMetrics" : false
-      },
-      "controllers.SupervisorsCtrl" : {
-        "getById" : false,
-        "getPromoCode" : false,
-        "create" : false,
-        "query" : false,
-        "listByZone" : false,
-        "changeActiveState" : false,
-        "delete" : false,
-        "update" : false
-      },
-      "controllers.CsvCtrl" : {
-        "downloadCSV" : false
-      },
-      "controllers.LuckybotCtrl" : {
-        "redeemPrize" : false,
-        "redeemPromoCode" : false,
-        "createGameSession" : false,
-        "finishGameSession" : false
-      },
-      "controllers.OrdersCtrl" : {
-        "authorizeDoor" : false,
-        "addTip" : false,
-        "getScheduledById" : false,
-        "getById" : false,
-        "markAsSimulated" : false,
-        "closeOrder" : false,
-        "updateOrderRequestStatus" : false,
-        "unassignOrder" : false,
-        "openDoor" : false,
-        "validateCheckout" : false,
-        "assignOrder" : false,
-        "botLocationByOrder" : false,
-        "listBySupervisor" : false,
-        "setPickupTime" : false,
-        "create" : false,
-        "addReceipt" : false,
-        "cancelScheduled" : false,
-        "getVideoStream" : false,
-        "lastClientOrder" : false,
-        "updateLocation" : false,
-        "botLocationForOrder" : false,
-        "orderGrabbed" : false,
-        "listByClient" : true,
-        "listByZone" : false,
-        "cancelOrder" : false,
-        "setQuotedDeliveryTime" : false,
-        "listByRestaurant" : false,
-        "rateOrder" : false,
-        "queryWithDefaults" : false,
-        "getLocation" : false,
-        "updateRestaurantStatus" : false,
-        "updateReviewStatus" : false,
-        "setPickupAddress" : false,
-        "assignBot" : false,
-        "forceCloseOrder" : false,
-        "transferOrder" : false,
-        "checkAddress" : false,
-        "recreateHumanId" : false,
-        "addOrderMessage" : false,
-        "listScheduledByClient" : false,
-        "updatePayment" : false,
-        "updateRequestStatus" : false,
-        "assignKiwer" : false,
-        "listScheduled" : false,
-        "changeZone" : false,
-        "addPicture" : false
-      },
-      "controllers.Assets" : {
-        "at" : false
-      },
-      "controllers.MessagesCtrl" : {
-        "readMessage" : false,
-        "readClientMessages" : false,
-        "listClientMessages" : false,
-        "sendMessage" : false
-      },
-      "controllers.WarningsCtrl" : {
-        "getWarnings" : false
-      },
-      "controllers.ServiceTypesCtrl" : {
-        "updateStatus" : false,
-        "updateSchedule" : false,
-        "index" : true
-      },
-      "controllers.PaymentsCtrl" : {
-        "createSource" : false,
-        "getCustomer" : false,
-        "selectDefaultSource" : false
-      },
-      "controllers.NotificationCtrl" : {
-        "create" : false
-      },
-      "controllers.old.AccountsCtrl" : {
-        "getZoneAccount" : false,
-        "listByZoneAndType" : false,
-        "getById" : false,
-        "getAccount" : false
-      },
-      "controllers.BannersCtrl" : {
-        "edit" : false,
-        "delete" : false,
-        "list" : false,
-        "create" : false
-      },
-      "controllers.BraintreeCtrl" : {
-        "getVenmo" : false,
-        "getPublishableKey" : false,
-        "createVenmo" : false
-      },
-      "controllers.Application" : {
-        "payments" : false,
-        "restaurantTerms" : false,
-        "videoRedirect" : false,
-        "getEnvVarsJs" : false,
-        "restaurantContract" : false,
-        "web" : false,
-        "kiwerLandingPage" : false,
-        "restaurants" : false,
-        "manager" : false,
-        "primeByCountry" : false,
-        "verifyWorkplaceDomain" : false,
-        "prime" : false,
-        "index" : false
-      },
-      "controllers.mobile.RewardsController" : {
-        "listForCustomer" : false
-      },
-      "controllers.WebAuthenticationCtrl" : {
-        "oAuth" : false,
-        "logout" : false,
-        "logSession" : false
-      },
-      "controllers.CollectionsCtrl" : {
-        "rearrangeItem" : false,
-        "show" : false,
-        "removeItem" : false,
-        "getAvailableItems" : false,
-        "create" : false,
-        "delete" : false,
-        "addItem" : false,
-        "rearrange" : false,
-        "update" : false,
-        "list" : false
-      },
-      "controllers.ManagerCtrl" : {
-        "list" : false,
-        "getById" : false
+        "getById" : true
       }
     },
     "PROD" : {
@@ -832,8 +549,8 @@
       },
       "controllers.WebAuthenticationCtrl" : {
         "oAuth" : false,
-        "logout" : false,
-        "logSession" : false
+        "logSession" : false,
+        "logout" : false
       },
       "controllers.CollectionsCtrl" : {
         "rearrangeItem" : false,
@@ -848,8 +565,291 @@
         "list" : false
       },
       "controllers.ManagerCtrl" : {
+        "getById" : false,
+        "list" : false
+      }
+    },
+    "STAGING" : {
+      "controllers.restaurants.PromoCtrl" : {
+        "getById" : false,
+        "create" : false,
+        "byZone" : false,
+        "disable" : false,
+        "update" : false,
+        "couponsByZone" : false,
+        "list" : false
+      },
+      "controllers.ClientsCtrl" : {
+        "getById" : true,
+        "getByPhoneNumber" : true,
+        "getScore" : false,
+        "create" : true,
+        "query" : false,
+        "removePrime" : false,
+        "unsubscribePrime" : false,
+        "listPerksByUser" : true,
+        "listPromoCodes" : false,
+        "redeemPromoCodeForUser" : false,
+        "checkFriends" : false,
+        "subscribePrime" : false,
+        "changeZone" : false,
+        "updateByPhone" : false
+      },
+      "controllers.restaurants.RestaurantsCtrl" : {
+        "getById" : false,
+        "getByPhoneNumber" : false,
+        "getByExternalId" : false,
+        "create" : false,
+        "batchPriceChange" : false,
+        "listByZone" : false,
+        "delete" : false,
+        "update" : false,
+        "setAvailability" : false,
+        "list" : false
+      },
+      "controllers.metrics.MetricsCtrl" : {
+        "getWeekMetrics" : false
+      },
+      "controllers.AddressesCtrl" : {
+        "getById" : false,
+        "create" : false,
+        "updateById" : false,
+        "list" : true,
+        "deleteById" : false
+      },
+      "controllers.OrderSimulatorCtrl" : {
+        "simulateOrder" : false
+      },
+      "controllers.old.MovementsCtrl" : {
+        "getById" : false,
+        "listByAccount" : false,
+        "query" : false,
+        "listByKiwer" : false,
+        "fixOrderMovement" : false,
+        "createKiwerMovement" : false
+      },
+      "controllers.HomeCtrl" : {
+        "home" : true
+      },
+      "controllers.PointsCtrl" : {
+        "removePoints" : false,
+        "getPointsInfo" : false,
+        "sendPoints" : false,
+        "getPoints" : true
+      },
+      "controllers.helper.SystemVariablesCtrl" : {
+        "getMaxPickupOrders" : false,
+        "getMaxOrders" : false,
+        "setMaxOrders" : false,
+        "isCoverageAreaEnabled" : false,
+        "setMaxPickupOrders" : false
+      },
+      "controllers.StripeCtrl" : {
+        "getPublishableKey" : false,
+        "getUserEnsureCustomer" : false,
+        "selectDefaultSource" : false,
+        "listSources" : false,
+        "createPayment" : false,
+        "getCustomer" : false,
+        "makePayment" : false,
+        "createSource" : false
+      },
+      "controllers.old.KiwerApplicationsCtrl" : {
+        "delete" : false,
         "list" : false,
-        "getById" : false
+        "find" : false,
+        "create" : false
+      },
+      "controllers.PromoCodesCtrl" : {
+        "toggleActive" : false,
+        "getCodes" : false,
+        "create" : false
+      },
+      "controllers.helper.TestCtrl" : {
+        "testClientPush" : false,
+        "generateError" : false,
+        "venmo" : false,
+        "rebuildScore" : false,
+        "geodecode" : false,
+        "testAPI" : false,
+        "testEvent" : false,
+        "serverMessage" : false,
+        "testDoc" : false,
+        "sendSms" : false,
+        "testNotify" : false,
+        "smsTestPoints" : false
+      },
+      "controllers.ZonesCtrl" : {
+        "ranking" : false,
+        "getById" : false,
+        "changeDoodle" : false,
+        "create" : false,
+        "update" : false,
+        "list" : true
+      },
+      "controllers.DevicesCtrl" : {
+        "registerKiwerDevice" : false,
+        "getKiwerDevice" : false,
+        "registerClientDevice" : true,
+        "getClientDevice" : false
+      },
+      "controllers.AuthenticationCtrl" : {
+        "createAdminPost" : false,
+        "appVersion2" : true,
+        "logout" : false,
+        "appVersion" : false,
+        "login" : false
+      },
+      "controllers.metrics.OrderMetricsCtrl" : {
+        "getOrderMetrics" : false
+      },
+      "controllers.SupervisorsCtrl" : {
+        "getById" : false,
+        "getPromoCode" : false,
+        "create" : false,
+        "query" : false,
+        "listByZone" : false,
+        "changeActiveState" : false,
+        "delete" : false,
+        "update" : false
+      },
+      "controllers.CsvCtrl" : {
+        "downloadCSV" : false
+      },
+      "controllers.LuckybotCtrl" : {
+        "redeemPrize" : false,
+        "redeemPromoCode" : false,
+        "createGameSession" : false,
+        "finishGameSession" : false
+      },
+      "controllers.OrdersCtrl" : {
+        "authorizeDoor" : false,
+        "addTip" : false,
+        "getScheduledById" : false,
+        "getById" : false,
+        "markAsSimulated" : false,
+        "closeOrder" : false,
+        "updateOrderRequestStatus" : false,
+        "unassignOrder" : false,
+        "openDoor" : false,
+        "validateCheckout" : false,
+        "assignOrder" : false,
+        "botLocationByOrder" : false,
+        "listBySupervisor" : false,
+        "setPickupTime" : false,
+        "create" : false,
+        "addReceipt" : false,
+        "cancelScheduled" : false,
+        "getVideoStream" : false,
+        "lastClientOrder" : false,
+        "updateLocation" : false,
+        "botLocationForOrder" : false,
+        "orderGrabbed" : false,
+        "listByClient" : true,
+        "listByZone" : false,
+        "cancelOrder" : false,
+        "setQuotedDeliveryTime" : false,
+        "listByRestaurant" : false,
+        "rateOrder" : false,
+        "queryWithDefaults" : false,
+        "getLocation" : false,
+        "updateRestaurantStatus" : false,
+        "updateReviewStatus" : false,
+        "setPickupAddress" : false,
+        "assignBot" : false,
+        "forceCloseOrder" : false,
+        "transferOrder" : false,
+        "checkAddress" : false,
+        "recreateHumanId" : false,
+        "addOrderMessage" : false,
+        "listScheduledByClient" : false,
+        "updatePayment" : false,
+        "updateRequestStatus" : false,
+        "assignKiwer" : false,
+        "listScheduled" : false,
+        "changeZone" : false,
+        "addPicture" : false
+      },
+      "controllers.Assets" : {
+        "at" : false
+      },
+      "controllers.MessagesCtrl" : {
+        "readMessage" : false,
+        "readClientMessages" : false,
+        "listClientMessages" : false,
+        "sendMessage" : false
+      },
+      "controllers.WarningsCtrl" : {
+        "getWarnings" : false
+      },
+      "controllers.ServiceTypesCtrl" : {
+        "updateStatus" : false,
+        "updateSchedule" : false,
+        "index" : true
+      },
+      "controllers.PaymentsCtrl" : {
+        "createSource" : false,
+        "getCustomer" : false,
+        "selectDefaultSource" : false
+      },
+      "controllers.NotificationCtrl" : {
+        "create" : false
+      },
+      "controllers.old.AccountsCtrl" : {
+        "getZoneAccount" : false,
+        "listByZoneAndType" : false,
+        "getById" : false,
+        "getAccount" : false
+      },
+      "controllers.BannersCtrl" : {
+        "edit" : false,
+        "delete" : false,
+        "list" : false,
+        "create" : false
+      },
+      "controllers.BraintreeCtrl" : {
+        "getVenmo" : false,
+        "getPublishableKey" : false,
+        "createVenmo" : false
+      },
+      "controllers.Application" : {
+        "payments" : false,
+        "restaurantTerms" : false,
+        "videoRedirect" : false,
+        "getEnvVarsJs" : false,
+        "restaurantContract" : false,
+        "web" : false,
+        "kiwerLandingPage" : false,
+        "restaurants" : false,
+        "manager" : false,
+        "primeByCountry" : false,
+        "verifyWorkplaceDomain" : false,
+        "prime" : false,
+        "index" : false
+      },
+      "controllers.mobile.RewardsController" : {
+        "listForCustomer" : false
+      },
+      "controllers.WebAuthenticationCtrl" : {
+        "oAuth" : false,
+        "logSession" : false,
+        "logout" : false
+      },
+      "controllers.CollectionsCtrl" : {
+        "rearrangeItem" : false,
+        "show" : false,
+        "removeItem" : false,
+        "getAvailableItems" : false,
+        "create" : false,
+        "delete" : false,
+        "addItem" : false,
+        "rearrange" : false,
+        "update" : false,
+        "list" : false
+      },
+      "controllers.ManagerCtrl" : {
+        "getById" : false,
+        "list" : false
       }
     }
   }
