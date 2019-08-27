@@ -542,10 +542,10 @@
         "list" : false
       },
       "controllers.ClientsCtrl" : {
-        "getById" : false,
-        "getByPhoneNumber" : false,
+        "getById" : true,
+        "getByPhoneNumber" : true,
         "getScore" : false,
-        "create" : false,
+        "create" : true,
         "query" : false,
         "removePrime" : false,
         "unsubscribePrime" : false,
@@ -591,7 +591,7 @@
         "createKiwerMovement" : false
       },
       "controllers.HomeCtrl" : {
-        "home" : false
+        "home" : true
       },
       "controllers.PointsCtrl" : {
         "removePoints" : false,
@@ -647,17 +647,17 @@
         "changeDoodle" : false,
         "create" : false,
         "update" : false,
-        "list" : false
+        "list" : true
       },
       "controllers.DevicesCtrl" : {
         "registerKiwerDevice" : false,
         "getKiwerDevice" : false,
-        "registerClientDevice" : false,
+        "registerClientDevice" : true,
         "getClientDevice" : false
       },
       "controllers.AuthenticationCtrl" : {
         "createAdminPost" : false,
-        "appVersion2" : false,
+        "appVersion2" : true,
         "logout" : false,
         "appVersion" : false,
         "login" : false
