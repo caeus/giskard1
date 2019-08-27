@@ -63,7 +63,7 @@
         "createKiwerMovement" : false
       },
       "controllers.HomeCtrl" : {
-        "home" : false
+        "home" : true
       },
       "controllers.PointsCtrl" : {
         "removePoints" : false,
@@ -166,7 +166,7 @@
         "updateOrderRequestStatus" : false,
         "unassignOrder" : false,
         "openDoor" : false,
-        "validateCheckout" : false,
+        "validateCheckout" : true,
         "assignOrder" : false,
         "botLocationByOrder" : false,
         "listBySupervisor" : false,
@@ -223,7 +223,7 @@
       },
       "controllers.PaymentsCtrl" : {
         "createSource" : false,
-        "getCustomer" : false,
+        "getCustomer" : true,
         "selectDefaultSource" : false
       },
       "controllers.NotificationCtrl" : {
@@ -242,7 +242,7 @@
         "create" : false
       },
       "controllers.BraintreeCtrl" : {
-        "getVenmo" : false,
+        "getVenmo" : true,
         "getPublishableKey" : false,
         "createVenmo" : false
       },
