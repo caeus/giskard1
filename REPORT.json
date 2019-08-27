@@ -549,7 +549,7 @@
         "query" : false,
         "removePrime" : false,
         "unsubscribePrime" : false,
-        "listPerksByUser" : false,
+        "listPerksByUser" : true,
         "listPromoCodes" : false,
         "redeemPromoCodeForUser" : false,
         "checkFriends" : false,
@@ -597,7 +597,7 @@
         "removePoints" : false,
         "getPointsInfo" : false,
         "sendPoints" : false,
-        "getPoints" : false
+        "getPoints" : true
       },
       "controllers.helper.SystemVariablesCtrl" : {
         "getMaxPickupOrders" : false,
@@ -707,7 +707,7 @@
         "updateLocation" : false,
         "botLocationForOrder" : false,
         "orderGrabbed" : false,
-        "listByClient" : false,
+        "listByClient" : true,
         "listByZone" : false,
         "cancelOrder" : false,
         "setQuotedDeliveryTime" : false,
