@@ -427,7 +427,7 @@
         "listByClient" : false,
         "listByZone" : false,
         "cancelOrder" : false,
-        "setQuotedDeliveryTime" : false,
+        "setQuotedDeliveryTime" : true,
         "listByRestaurant" : false,
         "rateOrder" : false,
         "queryWithDefaults" : true,
