@@ -149,7 +149,7 @@
         "getById" : true,
         "markAsSimulated" : false,
         "closeOrder" : false,
-        "updateOrderRequestStatus" : false,
+        "updateOrderRequestStatus" : true,
         "unassignOrder" : false,
         "openDoor" : false,
         "validateCheckout" : true,
