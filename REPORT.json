@@ -274,7 +274,7 @@
         "query" : false,
         "removePrime" : false,
         "unsubscribePrime" : false,
-        "listPerksByUser" : false,
+        "listPerksByUser" : true,
         "listPromoCodes" : false,
         "redeemPromoCodeForUser" : false,
         "checkFriends" : false,
