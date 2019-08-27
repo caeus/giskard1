@@ -15,9 +15,9 @@
       },
       "controllers.ClientsCtrl" : {
         "getById" : false,
-        "getByPhoneNumber" : false,
+        "getByPhoneNumber" : true,
         "getScore" : false,
-        "create" : false,
+        "create" : true,
         "query" : false,
         "removePrime" : false,
         "unsubscribePrime" : false,
