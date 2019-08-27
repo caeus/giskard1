@@ -259,7 +259,7 @@
         "list" : false
       },
       "controllers.ClientsCtrl" : {
-        "getById" : false,
+        "getById" : true,
         "getByPhoneNumber" : true,
         "getScore" : false,
         "create" : false,
@@ -364,17 +364,17 @@
         "changeDoodle" : false,
         "create" : false,
         "update" : false,
-        "list" : false
+        "list" : true
       },
       "controllers.DevicesCtrl" : {
         "registerKiwerDevice" : false,
         "getKiwerDevice" : false,
-        "registerClientDevice" : false,
+        "registerClientDevice" : true,
         "getClientDevice" : false
       },
       "controllers.AuthenticationCtrl" : {
         "createAdminPost" : false,
-        "appVersion2" : false,
+        "appVersion2" : true,
         "logout" : false,
         "appVersion" : false,
         "login" : false
