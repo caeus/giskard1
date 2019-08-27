@@ -156,7 +156,7 @@
         "assignOrder" : false,
         "botLocationByOrder" : false,
         "listBySupervisor" : false,
-        "setPickupTime" : false,
+        "setPickupTime" : true,
         "create" : true,
         "addReceipt" : false,
         "cancelScheduled" : false,
