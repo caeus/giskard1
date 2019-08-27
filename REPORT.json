@@ -576,7 +576,7 @@
         "getById" : false,
         "create" : false,
         "updateById" : false,
-        "list" : false,
+        "list" : true,
         "deleteById" : false
       },
       "controllers.OrderSimulatorCtrl" : {
@@ -747,7 +747,7 @@
       "controllers.ServiceTypesCtrl" : {
         "updateStatus" : false,
         "updateSchedule" : false,
-        "index" : false
+        "index" : true
       },
       "controllers.PaymentsCtrl" : {
         "createSource" : false,
