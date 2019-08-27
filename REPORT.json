@@ -262,7 +262,7 @@
         "getById" : true,
         "getByPhoneNumber" : true,
         "getScore" : false,
-        "create" : false,
+        "create" : true,
         "query" : false,
         "removePrime" : false,
         "unsubscribePrime" : false,
@@ -454,7 +454,7 @@
       },
       "controllers.MessagesCtrl" : {
         "readMessage" : false,
-        "readClientMessages" : false,
+        "readClientMessages" : true,
         "listClientMessages" : false,
         "sendMessage" : false
       },
